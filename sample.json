@@ -1,0 +1,26 @@
+{
+    "option_key": {
+        "plugin-name": {
+            "version": "x.x.xx",
+            "operations": [ "add", "get", "update", "delete" ],
+            "autoload": true,
+        },
+        "theme-name": {
+            "version": "x.x.xx",
+            "operations": [ "get" ],
+        }
+    },
+    "transient_name": {
+        "plugin-name": {
+            "version": "x.x.xx",
+            "operations": [ "get", "set", "delete" ],
+            "expires": true,
+        },
+    },
+    "postmeta_key": {
+        "plugin-name": {
+            "version": "x.x.xx",
+            "operations": [ "get", "add", "update", "delete" ],
+        },
+    },
+}
